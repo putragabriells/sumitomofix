@@ -80,6 +80,7 @@ const Login = () => {
   };
 
   return (
+    
     <div className="row g-0 auth-wrapper">
       <div className="col-12 col-md-1 col-lg-1 h-100 auth-background-col">
         <div className="auth-background-holder"></div>
@@ -92,7 +93,7 @@ const Login = () => {
             <div className="row justify-content-center">
                 <div className="col-xl-12 col-lg-12">
                     <div className="card border-0">
-            <p className="fw-bold card-header card-border-1" ><img src={logo}/>LOGIN ACCOUNT</p>
+            <p className="fw-bold card-header card-border-1" ><img src={logo}/>LOGIN ACCOUNT AJA</p>
             <div className="auth-form-container card-body text-start"
               <form
                 className="auth-form"
