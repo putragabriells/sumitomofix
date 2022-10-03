@@ -94,7 +94,7 @@ const Login = () => {
                 <div className="col-xl-12 col-lg-12">
                     <div className="card border-0">
             <p className="fw-bold card-header card-border-1" ><img src={logo}/>LOGIN ACCOUNT AJA</p>
-            <div className="auth-form-container card-body text-start"
+            <div className="auth-form-container card-body text-start"/>
               <form
                 className="auth-form"
                 method="POST"
