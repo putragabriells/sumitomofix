@@ -22,7 +22,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Form from "../../utilities/Forms";
-// import  from "./image/logo.png";
+import sumitomoLogo from './../images/logo-sumitomo.png';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -30,7 +30,6 @@ const Login = () => {
   const [remember, setRemember] = useState(false);
   const [validate, setValidate] = useState({});
   const [showPassword, setShowPassword] = useState(false);
-  const logo = require ('./image/logo.png');
 
   const validateLogin = () => {
     let isValid = true;
@@ -93,7 +92,7 @@ const Login = () => {
             <div className="row justify-content-center">
                 <div className="col-xl-12 col-lg-12">
                     <div className="card border-0">
-            <p className="fw-bold card-header card-border-1" ><img src={logo}/>LOGIN ACCOUNT AJA</p>
+            <p className="fw-bold card-header card-border-1" > <img className="imgfluid" src={sumitomoLogo} />LOGIN ACCOUNT AJA</p>
             <div className="auth-form-container card-body text-start"/>
               <form
                 className="auth-form"
